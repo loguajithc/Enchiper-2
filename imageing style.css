@@ -1,0 +1,37 @@
+body,html {
+  scroll-behavior: smooth;
+  font-family: Arial,sans-serif;
+}
+.hero {
+  height: 80vh;
+   background: url('hero-bg.jpg') center/cover no-repeat;
+    color: white;
+    display:flex;
+    justify-content: center;
+  align-items:center;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+section h2{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom:1rem;
+}
+.testimonial{
+  background:blue;
+  border: 1px solid blue;
+}
+.team-member.img-wrap { 
+  height: 120;
+  width:120;
+  background: blue;
+  border-radius:50%;
+  margin:auto;
+}
+.contact input,textarea {
+  border-radius:0;
+}
+    
